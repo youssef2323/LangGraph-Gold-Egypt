@@ -32,13 +32,11 @@ It proves you can:
 - `screenshots/4..png` – “تفصيل عيار 21: بدون/بالمصنعية”  
 - `screenshots/5..png` – Final Arabic report
 
-```html
-<!-- Example markdown embeds (GitHub will render them) -->
 <p align="center">
-  <img src="screenshots/1_home.png" width="800" alt="Home">
+  <img src="Screenshots/1.png" width="800" alt="Home">
 </p>
 <p align="center">
-  <img src="screenshots/4_21k_split.png" width="800" alt="21k split">
+  <img src="Screenshots/2.png" width="800" alt="21k split">
 </p>
 ```
 
@@ -154,4 +152,5 @@ flowchart LR
 
 ## 📄 License
 MIT (or your preference).
+
 
