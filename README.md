@@ -25,13 +25,12 @@ It proves you can:
 ---
 
 ## 📸 Screenshots (placeholders)
-> Put images in the `screenshots/` folder and keep these names to auto-embed in your portfolio.
 
-- `screenshots/1_home.png` – Home screen & sidebar in Arabic  
-- `screenshots/2_links.png` – “الروابط التي تم العثور عليها” section  
-- `screenshots/3_table.png` – Extracted prices table (جنيه/جرام)  
-- `screenshots/4_21k_split.png` – “تفصيل عيار 21: بدون/بالمصنعية”  
-- `screenshots/5_report.png` – Final Arabic report
+- `screenshots/1.png` – Home screen & sidebar in Arabic  
+- `screenshots/2.png` – “الروابط التي تم العثور عليها” section  
+- `screenshots/3.png` – Extracted prices table (جنيه/جرام)  
+- `screenshots/4..png` – “تفصيل عيار 21: بدون/بالمصنعية”  
+- `screenshots/5..png` – Final Arabic report
 
 ```html
 <!-- Example markdown embeds (GitHub will render them) -->
@@ -133,13 +132,7 @@ flowchart LR
 - “تفصيل عيار 21”: shows **بدون/بالمصنعية** when available
 - Report: says **غير متاح** for 21k only if stats truly lack it
 
----
 
-## 📦 Deployment notes
-- Works well on a small **EC2** or any VPS. Expose via **Streamlit Cloud**, **Hugging Face Spaces**, or **Docker**.
-- Add a basic `Procfile`/Dockerfile if you plan to host long term.
-
----
 
 ## 🗺 Roadmap (nice-to-have)
 - Freshness badges (اليوم/أمس/غير معروف) per row
@@ -155,17 +148,10 @@ flowchart LR
 - **Model/tool error:** set `GROQ_MODEL=llama-3.1-70b-versatile` (supported) and upgrade `langchain-groq`.
 - **Still seeing “2025 جنيه”:** ensure you replaced `scraper.py` with the year-guard version.
 
----
 
-## 🏷 Suggested repo names
-Pick one (the first is my default suggestion):
-1. **gold-eg-report-langgraph** ✅
-2. ZahabEG-Agentic-Report
-3. LangGraph-Gold-Egypt
-4. Misr-Gold-Agents
-5. GoldPulse-EG-Agentic
 
 ---
 
 ## 📄 License
 MIT (or your preference).
+
