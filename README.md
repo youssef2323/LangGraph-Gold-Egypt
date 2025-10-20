@@ -143,7 +143,7 @@ flowchart LR
 ## 🛠 Troubleshooting
 - **Empty report / no links:** check internet/DuckDuckGo; raise `MAX_SOURCES`.
 - **“GROQ_API_KEY” missing:** add it to `.env`; restart terminal.
-- **Model/tool error:** set `GROQ_MODEL=llama-3.1-70b-versatile` (supported) and upgrade `langchain-groq`.
+- **Model/tool error:** set `openai/gpt-oss-120b` (supported) and upgrade `langchain-groq`.
 - **Still seeing “2025 جنيه”:** ensure you replaced `scraper.py` with the year-guard version.
 
 
@@ -152,6 +152,7 @@ flowchart LR
 
 ## 📄 License
 MIT (or your preference).
+
 
 
 
