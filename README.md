@@ -1,7 +1,7 @@
 # gold-eg-report-langgraph
 
 > **Arabic, Egypt-only gold price reporter** — built with **LangGraph** (multi-agent flow) + **Streamlit** UI.  
-> Searches Arabic web sources, extracts **EGP/gram** prices (18/21/24 karat), separates **بدون/بالمصنعية**, and generates a concise Arabic report via LLM.
+> Searches Arabic web sources, extracts **EGP/gram** prices (18/21/24 karat), and generates a concise Arabic report via LLM(openai/gpt-oss-120b).
 
 ---
 
@@ -152,6 +152,7 @@ flowchart LR
 
 ## 📄 License
 MIT (or your preference).
+
 
 
 
