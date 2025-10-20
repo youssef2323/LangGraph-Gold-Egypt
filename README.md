@@ -24,13 +24,7 @@ It proves you can:
 
 ---
 
-## 📸 Screenshots (placeholders)
-
-- `screenshots/1.png` – Home screen & sidebar in Arabic  
-- `screenshots/2.png` – “الروابط التي تم العثور عليها” section  
-- `screenshots/3.png` – Extracted prices table (جنيه/جرام)  
-- `screenshots/4..png` – “تفصيل عيار 21: بدون/بالمصنعية”  
-- `screenshots/5..png` – Final Arabic report
+## 📸 Screenshots
 
 <p align="center">
   <img src="Screenshots/1.png" width="800" alt="Home">
@@ -158,6 +152,7 @@ flowchart LR
 
 ## 📄 License
 MIT (or your preference).
+
 
 
 
