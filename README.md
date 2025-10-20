@@ -38,6 +38,12 @@ It proves you can:
 <p align="center">
   <img src="Screenshots/2.png" width="800" alt="21k split">
 </p>
+<p align="center">
+  <img src="Screenshots/3.png" width="800" alt="21k split">
+</p>
+<p align="center">
+  <img src="Screenshots/4.png" width="800" alt="21k split">
+</p>
 ```
 
 ---
@@ -152,5 +158,6 @@ flowchart LR
 
 ## 📄 License
 MIT (or your preference).
+
 
 
