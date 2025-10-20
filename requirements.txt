@@ -1,0 +1,13 @@
+langgraph
+langchain
+ddgs
+requests
+beautifulsoup4
+pydantic
+python-dotenv
+httpx
+tenacity
+streamlit
+pytz
+langchain-groq
+groq
