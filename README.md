@@ -113,24 +113,8 @@ flowchart LR
 - **Freshness preference** — uses simple date hints to prefer **اليوم**
 - **CSV & report downloads** — one click for auditing & sharing
 
----
-
-## 🧪 Quick test checklist
-- Query: **سعر الذهب اليوم** → links have no **xau-usd/oz/ounce/turkey**
-- Table: all rows show **جنيه/جرام**
-- “ملخص سريع”: no year leaks; ranges look sensible
-- “تفصيل عيار 21”: shows **بدون/بالمصنعية** when available
-- Report: says **غير متاح** for 21k only if stats truly lack it
 
 
-
-## 🗺 Roadmap (nice-to-have)
-- Freshness badges (اليوم/أمس/غير معروف) per row
-- Domain **whitelist/weighting** to stabilize sources
-- Simple caching of page HTMLs to avoid re-scrapes
-- Unit tests for `normalize_number` & the parser
-
----
 
 ## 🛠 Troubleshooting
 - **Empty report / no links:** check internet/DuckDuckGo; raise `MAX_SOURCES`.
@@ -144,6 +128,7 @@ flowchart LR
 
 ## 📄 License
 MIT (or your preference).
+
 
 
 
