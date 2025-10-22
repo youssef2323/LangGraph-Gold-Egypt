@@ -67,7 +67,7 @@ DEFAULT_REGION=EG
 # Optional: number of sources
 MAX_SOURCES=8
 # Optional: override Groq model (defaults to llama-3.1-70b-versatile)
-GROQ_MODEL=llama-3.1-70b-versatile
+GROQ_MODEL=openai/gpt-oss-120b)
 ```
 
 Run the app:
@@ -128,6 +128,7 @@ flowchart LR
 
 ## 📄 License
 MIT (or your preference).
+
 
 
 
