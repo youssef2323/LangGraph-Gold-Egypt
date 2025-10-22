@@ -5,14 +5,6 @@
 
 ---
 
-## 🚀 Why this repo?
-An interview-ready, minimal-yet-solid demo of **agentic workflows** using **LangGraph** — with a real use case (gold prices in Egypt, today).  
-It proves you can:
-- Design a **multi-agent** graph (`search → fetch → report`).
-- Parse Arabic pages, normalize numbers, and **filter noise** reliably.
-- Produce a clean **Arabic** report and a **Streamlit** dashboard.
-
----
 
 ## 🧰 Tech stack
 - **LangGraph** (agentic state machine)
@@ -152,6 +144,7 @@ flowchart LR
 
 ## 📄 License
 MIT (or your preference).
+
 
 
 
